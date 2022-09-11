@@ -1,0 +1,36 @@
+:root {
+  --background-posts: #fffafa;
+  --cor-da-data: #008080;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.post-container {
+  background-color: var(--background-posts);
+  margin: 0 auto;
+  width: 80%;
+}
+
+.post {
+  padding: 50px;
+  padding-right: 120px;
+}
+
+.date {
+  font-family: Roboto, sans-serif;
+  color: var(--cor-da-data);
+  margin-bottom: 20px;
+}
+
+.post-content {
+  font-family: "Open Sans", sans-serif;
+}
